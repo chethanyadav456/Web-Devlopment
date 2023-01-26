@@ -1,0 +1,16 @@
+body {
+    /* color: aqua; */
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: lightblue;
+}
+
+hr {
+    background-color: white;
+    border-style: dotted none none;
+    width: 10%;
+}
