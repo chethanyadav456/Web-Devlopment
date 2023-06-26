@@ -1,0 +1,40 @@
+body {
+    background-color: rgba(12,13,13,255);
+}
+
+p, .title {
+    color: #37a631;
+}
+
+body ::selection {
+  outline: 2px solid rgba(12,13,13,255);
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.span {
+  animation: blink 1s infinite;
+}
+
+.cmd {
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-left: 0%;
+    margin-left: 0%;
+}
+
+p.title-cmd {
+   margin: 0%;
+   padding: 0%;
+   color: black;
+   background-color: white;
+   text-indent: 1%;
+   text-decoration: solid;
+   border: 0%;
+   border-left: 0%;
+   border-top: 0%;
+}
